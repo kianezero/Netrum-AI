@@ -53,13 +53,13 @@ npm install && npm link
 ```
   ### Test the CLI
 
-     ```bash
+     ```
      netrum
      ```
 
      > You should see the Netrum Lite Node CLI interface.
 
-     ```bash
+     ```
        Netrum CLI  Version v1.0.0
        Light-weight node & wallet toolkit for the Netrum network.
 
@@ -74,12 +74,12 @@ npm install && npm link
        netrum-node-id         Show current Node ID
        netrum-node-id-remove  Clear Node ID
        netrum-node-sign       Sign a message with node key
-       netrum-node-register   Register node on-chain
+       netrum-node-register   Register node on-chain need gass 0.0004-0.0005 ETH Base
        netrum-sync            Sync blockchain data
        netrum-sync-log        Node sync logs
        netrum-mining          Start mining
        netrum-mining-log      Node mining logs
-       netrum-claim           Claim rewards
+       netrum-claim           Claim rewards (gas around 0.00002 to 0.00003 BASE)
 
        Run netrum <command> --help for command-specific options.
      ```
