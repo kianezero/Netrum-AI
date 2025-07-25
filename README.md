@@ -52,10 +52,9 @@ cd && git clone https://github.com/NetrumLabs/netrum-lite-node.git && cd netrum-
 npm install && npm link
 ```
   ### Test the CLI
-
-     ```
-     netrum
-     ```
+```
+netrum
+```
 
      > You should see the Netrum Lite Node CLI interface.
 
@@ -84,7 +83,6 @@ npm install && npm link
        Run netrum <command> --help for command-specific options.
      ```
 
----
 
 # How to Use Netrum CLI Commands
 
